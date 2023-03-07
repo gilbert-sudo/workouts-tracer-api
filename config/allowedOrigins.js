@@ -1,7 +1,7 @@
 const allowedOrigins = [
-    'http://localhost:3000',
+    'https://workoutstracer.onrender.com/',
     'https://www.workoutstracer.onrender.com/',
-    'https://workoutstracer.onrender.com/'
+    'http://localhost:3000',
 ]
 
 module.exports = allowedOrigins
