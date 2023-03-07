@@ -11,7 +11,7 @@ const corsOptions = require('./config/corsOptions')
 const app = express()
 
 // middleware
-app.use(cors())
+app.use(cors(corsOptions))
 app.use(express.json())
 
 app.use((req, res, next) => {
